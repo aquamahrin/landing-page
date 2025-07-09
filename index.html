@@ -1,0 +1,172 @@
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+            <meta charset="UTF-8">
+            <title>TechGadget - Landing Page</title>
+            <style>
+                * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                }
+
+                body {
+                font-family: Arial, sans-serif;
+                background-color: #f8f8f8;
+                color: #333;
+                }
+
+                header {
+                background-color: #1d1d1d;
+                padding: 20px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: white;
+                }
+
+                .logo {
+                height: 50px;
+                }
+
+                nav ul {
+                list-style: none;
+                display: flex;
+                gap: 20px;
+                }
+
+                nav ul li a {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                }
+
+                .container {
+                display: flex;
+                margin: 20px;
+                }
+
+                .sidebar {
+                width: 25%;
+                background-color: #efefef;
+                padding: 15px;
+                }
+
+                .sidebar h2 {
+                margin-bottom: 10px;
+                }
+
+                .sidebar ul {
+                list-style: none;
+                }
+
+                .sidebar ul li {
+                margin-bottom: 10px;
+                }
+
+                .sidebar ul li a {
+                text-decoration: none;
+                color: #333;
+                }
+
+                main {
+                flex: 1;
+                padding: 20px;
+                background-color: white;
+                margin-left: 20px;
+                }
+
+                .gallery {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                }
+
+                .gallery div {
+                width: calc(50% - 10px);
+                background: #fafafa;
+                padding: 10px;
+                border: 1px solid #ccc;
+                }
+
+                .gallery img {
+                width: 100%;
+                height: auto;
+                }
+
+                footer {
+                background-color: #1d1d1d;
+                color: white;
+                text-align: center;
+                padding: 20px;
+                }
+            </style>
+            </head>
+            <body>
+
+            <!-- Header -->
+            <header>
+                <img src="techgadgetlogo.jpg" alt="TechGadget Logo" class="logo">
+                <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                </nav>
+            </header>
+
+            <!-- Content -->
+            <div class="container">
+
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                <h2>Categories</h2>
+                <ul>
+                    <li><a href="#">Smartphones</a></li>
+                    <li><a href="#">Wearables</a></li>
+                    <li><a href="#">Headphones</a></li>
+                    <li><a href="#">Chargers</a></li>
+                </ul>
+                </aside>
+
+                <!-- Main -->
+                <main>
+                <h1>Featured Gadgets</h1>
+                <div class="gallery">
+                    <div>
+                    <img src="smartwatch.png" alt="Smartwatch">
+                    <p>Smartwatch Pro - Elegant design and fitness tracking</p>
+                    </div>
+                    <div>
+                    <img src="earbuds.png" alt="Wireless Earbuds">
+                    <p>Wireless Earbuds - Crystal clear sound & long battery</p>
+                    </div>
+                    <div>
+                    <img src="speaker.png" alt="Portable Speaker">
+                    <p>Portable Speaker - Compact and powerful audio</p>
+                    </div>
+                    <div>
+                    <img src="mouse.png" alt="Gaming Mouse">
+                    <p>Gaming Mouse - RGB lights and high precision</p>
+                    </div>
+                    <div>
+                    <img src="stand.png" alt="Phone Stand">
+                    <p>Adjustable Phone Stand - Great for video calls</p>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec nisi id quam tincidunt porttitor. Suspendisse potenti. Pellentesque ac nisi in sem dapibus venenatis.</p>
+                </main>
+            </div>
+
+            <!-- Footer -->
+            <footer>
+                <img src="techgadgetlogo.jpg" alt="Footer Logo" class="logo">
+                <p>Web Designer: Ahron De Luna</p>
+                <p>Email: ahronpamintuan@gmail.com</p>
+            </footer>
+
+            </body>
+            </html>
